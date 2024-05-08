@@ -314,6 +314,7 @@ html body a {
 }
 /*********header*******/
 body header {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -543,7 +544,7 @@ body header input::-webkit-input-placeholder {
   align-items: flex-start;
   padding: 8px 0 0px 16px;
 }
-.main .menu-container .menus .carte-container__title p {
+.main .menu-container .menus .carte-container__title h3, .main .menu-container .menus .carte-container__title p {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;

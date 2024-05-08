@@ -6,9 +6,9 @@
 /*********header*******/
 body {
   header {
- 
+width: 100%;
     @include flex(column, center);
- 
+  
 
     img {
       width: 220px;
@@ -22,7 +22,8 @@ body {
       box-shadow: inset 2px 5px 5px -3px darken($primary-color, 30%);
       background: darken($primary-color, 10%);
       height: 40px;
-      width: 100%;
+      width:100%;
+    
       margin-top: 20px;
       
   
